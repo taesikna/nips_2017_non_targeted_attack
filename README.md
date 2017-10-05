@@ -12,7 +12,7 @@ Please run download_checkpoints.sh to download pre-trained ImageNet models used 
 ./download_checkpoints.sh
 ```
 
-### Attach Method
+### Attack Method
 
 In particular, I've used 2 adversarially trained ImageNet models (Inception ResNet v2 and Inception v3 trained with ensemble adversarial training) and 1 purely trained model (Inception v3) as source networks for adversarial images generation.
 You can see the full list of adversarially trained ImageNet models in [adv_imagenet_models](https://github.com/tensorflow/models/tree/master/research/adv_imagenet_models)
