@@ -1,3 +1,6 @@
+# This code is from
+# https://gist.github.com/batzner/7c24802dd9c5e15870b4b56e22135c96
+
 import sys, getopt
 
 import tensorflow as tf
